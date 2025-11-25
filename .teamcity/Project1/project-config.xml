@@ -18,7 +18,7 @@
         <param name="awsConnectionId" value="Project1_AmazonWebServicesAws" />
         <param name="storage.name" value="fg" />
         <param name="storage.s3.bucket.name" value="chubatovawest1" />
-        <param name="storage.s3.bucket.prefix" value="ff" />
+        <param name="storage.s3.bucket.prefix" value="ffiki98" />
         <param name="storage.s3.forceVirtualHostAddressing" value="true" />
         <param name="storage.s3.upload.presignedUrl.enabled" value="true" />
         <param name="storage.s3.verifyIntegrityAfterUpload" value="true" />

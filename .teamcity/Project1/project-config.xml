@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="ae4d03cc-062d-4449-aa2c-d1f2039b45f8" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
   <name>project1</name>
   <project-extensions>
-    <extension id="PROJECT_EXT_1" type="versionedSettings">
+    <extension id="PROJECT_EXT_7" type="versionedSettings">
       <parameters>
         <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
         <param name="credentialsStorageType" value="credentialsJSON" />
         <param name="enabled" value="true" />
         <param name="ignoreChangesInDependenciesAndVcsSettings" value="false" />
-        <param name="rootId" value="Project1_HttpsGithubComChubatovaTigerS3RegionCache" />
+        <param name="rootId" value="Project2_HttpsGithubComChubatovaTigerS3RegionCacheRefsHeadsMaster" />
         <param name="showChanges" value="false" />
-      </parameters>
-    </extension>
-    <extension id="PROJECT_EXT_3" type="storage_settings">
-      <parameters>
-        <param name="aws.external.id" value="TeamCity-server-277955e1-6afc-4873-8a3a-607c7859b705" />
-        <param name="awsConnectionId" value="Project1_AmazonWebServicesAws" />
-        <param name="storage.name" value="fg" />
-        <param name="storage.s3.bucket.name" value="chubatovawest1" />
-        <param name="storage.s3.bucket.prefix" value="ffiki98" />
-        <param name="storage.s3.forceVirtualHostAddressing" value="true" />
-        <param name="storage.s3.upload.presignedUrl.enabled" value="true" />
-        <param name="storage.s3.verifyIntegrityAfterUpload" value="true" />
-        <param name="storage.type" value="S3_storage" />
-      </parameters>
-    </extension>
-    <extension id="PROJECT_EXT_4" type="active_storage">
-      <parameters>
-        <param name="active.storage.feature.id" value="PROJECT_EXT_3" />
-      </parameters>
-    </extension>
-    <extension id="Project1_AmazonWebServicesAws" type="OAuthProvider">
-      <parameters>
-        <param name="awsAccessKeyId" value="AKIA5JH2VERVDN3XW5GF" />
-        <param name="awsAllowedInBuilds" value="true" />
-        <param name="awsAllowedInSubProjects" value="true" />
-        <param name="awsCredentialsType" value="awsAccessKeys" />
-        <param name="awsIamRoleSessionName" value="TeamCity-session" />
-        <param name="awsRegionName" value="eu-west-3" />
-        <param name="awsSessionCredentials" value="true" />
-        <param name="awsStsEndpoint" value="https://sts.eu-west-3.amazonaws.com" />
-        <param name="displayName" value="Amazon Web Services (AWS)" />
-        <param name="providerType" value="AWS" />
-        <param name="secure:awsSecretAccessKey" value="credentialsJSON:0f79afe5-2866-498f-a1b8-7764a11473ea" />
       </parameters>
     </extension>
   </project-extensions>

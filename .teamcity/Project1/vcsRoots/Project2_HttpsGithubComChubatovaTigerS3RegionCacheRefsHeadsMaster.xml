@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="1bbccff4-65ed-4dd5-aa27-767ee7559d39" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+  <name>https://github.com/ChubatovaTiger/s3RegionCache#refs/heads/master</name>
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="secure:password" value="credentialsJSON:2dfe0ca7-3bf1-4fab-8932-cbd3d538fc36" />
+  <param name="teamcity:branchSpec" value="refs/heads/*" />
+  <param name="url" value="https://github.com/ChubatovaTiger/s3RegionCache" />
+</vcs-root>
+
